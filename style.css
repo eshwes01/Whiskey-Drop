@@ -3,11 +3,11 @@ body {
 }
 
 /* Containers */
-.alert-container col-12{
+.alert-container .col-12{
     padding-left:0;
     padding-right:0;
-
 }
+
 .site-wide-alert{
     border-radius:0;
     margin-bottom:0;
@@ -21,7 +21,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
