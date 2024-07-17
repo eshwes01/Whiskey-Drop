@@ -8,14 +8,36 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
-    <article class="container">
-        <section class="callout">        
-            <h1> The finest whiskey delivered to your doorstep</h1>
-            <p> Sign up today to star receiving the world's best whiskey every month 
-            <s>£19.99</s><strong><mark> First one is free !</mark></strong> </p>
-            <p class="text-muted"><small> You must be over 18 to sign up to our service. Please drink responsibly </small></p>
-                <button class="btn btn-success btn-lg">Sign Up!</button>
-        </section>
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+      <a href="index.html" class="navbar-brand"> Whiskey Drop </a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"> <a class="nav-link" href="/"> Home </a> </li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/about"> About </a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login"> Sign In /Sign Up </a></li>
+        </ul>
+        <div class="d-none d-md-block">
+          <p class="navbar-text myauto mr2"><i> Great whiskey deliver to your door </i></p>
+          <a href="/login"> Sign In / Sign Up </a>
+        </div>
+    </nav>
+    
+    <article class="container mt-3">
+      <!-- Call Out -->
+       <div class="row">
+        <div class="col-12 my-5">
+          <section class="callout jumbotron text-center">        
+              <h1> The finest whiskey delivered to your doorstep</h1>
+              <p class="lead"> Sign up today to star receiving the world's best whiskey every month 
+              <s class="d-none d-sm-inline">£19.99</s>
+              <span class="d-inline d-sm-none"><br></span>
+              <strong><mark> First one is free !</mark></strong> </p>
+
+              <p class="text-muted"><small> You must be over 18 to sign up to our service. Please drink responsibly </small></p>
+                  <button class="btn btn-success btn-lg">Sign Up!</button>
+          </section>
+      </div>
+    </div>
+    <!-- Call Out/ -->
         <section class="quotes">
             <h2 class="text-uppercase">Quotes :</h2>
             <blockquote class="blockquote">
@@ -46,7 +68,7 @@
                 
                 <p> <a class="btn btn-sm btn-light" href="">Read More</a></p>
                 <h3>Feature 3</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                       It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -86,6 +108,12 @@
                       </tbody>
                   </table>
         </section>
+
+        <ul class="list-inline">
+          <li class="list-inline-item">A </li>
+          <li class="list-inline-item">B </li>
+          <li class="list-inline-item">C </li>
+        </ul>
     </article>
 </body>
 </html>
