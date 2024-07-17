@@ -33,6 +33,41 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
     
 
 
