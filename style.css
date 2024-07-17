@@ -109,8 +109,8 @@ body {
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #af4832;
-    border-color: #af4832;
+    background-color: #861f08;
+    border-color: #861f08;
     color: white;
 }
 
