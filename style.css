@@ -3,14 +3,19 @@ body {
 }
 
 /* Containers */
+.alert-container col-12{
+    padding-left:0;
+    padding-right:0;
 
-.alert-container {
-
+}
+.site-wide-alert{
+    border-radius:0;
+    margin-bottom:0;
+    padding: 5px 15px;
 }
 
 .callout-container {
     height: 100vh;
-
     background: url('Images/whiskey-glass_NBCKWLMBGX.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,18 +25,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
-/* Navbar */
 
+/* Navbar */
 .navalert-container {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
     padding-left: 0;
     padding-right: 0;
+    z-index: 1;
 }
 
 .navbar {
@@ -52,7 +56,6 @@ body {
 .navbar .navbar-nav a {
     font-weight: bold;
 }
-
 
 /* Buttons */
 
