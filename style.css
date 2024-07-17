@@ -12,8 +12,11 @@ body {
     border-radius:0;
     margin-bottom:0;
     padding: 5px 15px;
+    color: #856404;
+    background-color: #f9c627;
+    border-color: #f9c627;
 }
-
+/* Call Out Container */
 .callout-container {
     height: 100vh;
     background: url('Images/whiskey-glass_NBCKWLMBGX.jpg') no-repeat center center fixed;
@@ -27,6 +30,38 @@ body {
     position: relative;
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*--- jumbotron --- */
+.jumbotron {
+    background-color: transparent;
+}
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+.jumbotron .lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #eaedf1;
+    margin: 25px 0;
+}
+
+.block-divider-orange{
+    width: 75px;
+    height: 5px;
+    background-color: #e79141;
+    border: 0;
+}
 /* Navbar */
 .navalert-container {
     position: absolute;
