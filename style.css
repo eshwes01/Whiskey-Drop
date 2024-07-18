@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Containers */
+/* Alert Containers */
 .alert-container .col-12{
     padding-left:0;
     padding-right:0;
@@ -29,7 +29,6 @@ body {
     justify-content: center;
     position: relative;
 }
-
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -55,13 +54,14 @@ body {
     color: #eaedf1;
     margin: 25px 0;
 }
-
+/* Short Divider */
 .block-divider-orange{
     width: 75px;
     height: 5px;
     background-color: #e79141;
     border: 0;
 }
+
 /* Navbar */
 .navalert-container {
     position: absolute;
@@ -113,11 +113,20 @@ body {
     color: white;
 }
 
-/* Page Headers */
+/* Quote Container */
+.container-wrapper {
 
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
+/* Page Headers */
 .page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
+    margin-bottom:0;
+    border-bottom:0;
     text-align: center;
 }
 
