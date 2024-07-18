@@ -114,9 +114,7 @@ body {
 }
 
 /* Quote Container */
-.container-wrapper {
-
-}
+.container-wrapper {}
 
 .container-wrapper--red {
     background-color: #f05f40;
@@ -128,7 +126,10 @@ body {
     padding-bottom: 75px;
 }
 
+.quotes .page-header{
+    margin-bottom:25px;
 
+}
 /* Page Headers */
 .page-header {
     margin-bottom:0;
@@ -159,6 +160,27 @@ body {
 
 .block-divider--short {
     width: 35px;
+}
+
+/* --- Feature ---- */
+.features{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.features i{
+    margin-bottom:20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.features .btn{
+    background-color:white;
+    border-color: white;
+    border-radius:15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(182, 52, 52);
 }
 
 
