@@ -123,6 +123,12 @@ body {
     color: white;
 }
 
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
 /* Page Headers */
 .page-header {
     margin-bottom:0;
@@ -133,6 +139,27 @@ body {
 .page-header h2{
     margin-top:0;
 }
-    
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
 
 
