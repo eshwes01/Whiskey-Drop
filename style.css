@@ -114,7 +114,7 @@ body {
 }
 
 /* Quote Container */
-.container-wrapper {}
+/* .container-wrapper {} */
 
 .container-wrapper--red {
     background-color: #f05f40;
@@ -195,6 +195,10 @@ body {
     background-color: #f05f40;
 }
 
+.carousel-test{
+        margin:5px;
+        padding:0;
+}
 .carousel-control-prev-icon{
     color:rgb(230, 215, 215);
 }
