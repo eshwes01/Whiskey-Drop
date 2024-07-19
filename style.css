@@ -183,6 +183,12 @@ body {
     color: rgb(182, 52, 52);
 }
 
+/* ------------ Collapse Test ----- */
+.collapse-test{
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:0 auto;
+}
 
 #collapseWidthExample{
         width:80px;
@@ -195,14 +201,11 @@ body {
     background-color: #f05f40;
 }
 
-.carousel-test{
-        margin:5px;
-        padding:0;
-}
+
 .carousel-control-prev-icon{
-    color:rgb(230, 215, 215);
+    color:rgb(134, 15, 15);
 }
 
 .carousel-control-next-icon{
-    color:rgb(230, 215, 215);
+    color:rgb(105, 14, 14);
 }
