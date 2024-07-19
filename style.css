@@ -35,7 +35,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /*--- jumbotron --- */
@@ -97,8 +97,8 @@ body {
     border-radius: 23px;
     width: 160px;
 }
-
-.btn--red {
+/* ---Before  */
+.btn--red{
     color: white;
     background-color: #f05f40;
     border-color: #f05f40;
@@ -184,4 +184,21 @@ body {
 }
 
 
+#collapseWidthExample{
+        width:80px;
+        
+}
 
+.card-body :collapse{
+    width:80%;
+    border-radius: 20%;
+    background-color: #f05f40;
+}
+
+.carousel-control-prev-icon{
+    color:rgb(230, 215, 215);
+}
+
+.carousel-control-next-icon{
+    color:rgb(230, 215, 215);
+}
